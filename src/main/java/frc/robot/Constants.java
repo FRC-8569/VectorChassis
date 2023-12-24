@@ -7,9 +7,7 @@ public class Constants {
     public static final double kThrottleGarRatio = 6.12;
     public static final double kWheelDiametor = 4 * 0.0254;
     public static final double kMaxThrottleSpeed = 6380 / 60 / kThrottleGarRatio * kThrottleGarRatio * Math.PI;
-
     public static final double kMaxRotatinoSpeed = kMaxThrottleSpeed / Math.sqrt(2 * Math.pow(0.5, 2));
-
     public static final double kThrottleVelocity = kWheelDiametor * Math.PI / kThrottleGarRatio * 10 / 2048;
 
     public static final int A_THROTTKE_ID = 1;

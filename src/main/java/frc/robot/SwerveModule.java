@@ -49,7 +49,6 @@ public class SwerveModule{
         encoder.configAbsoluteSensorRange(AbsoluteSensorRange.Signed_PlusMinus180);
         encoder.configMagnetOffset(encoderOffset);
         encoder.configSensorInitializationStrategy(SensorInitializationStrategy.BootToAbsolutePosition);
-
         rotorPID.enableContinuousInput(-180, 180);
     }
 }
